@@ -68,7 +68,6 @@ databricks-cli==0.16.4
 dataclasses==0.6
 debugpy
 decorator 
-defusedxmlk
 Deprecated==1.2.13
 dill==0.3.4
 docker==5.0.3

@@ -1,4 +1,0 @@
-minio
-joblib
-matplotlib
-pycaret==2.3.6

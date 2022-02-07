@@ -1,0 +1,6 @@
+pandas
+streamlit
+minio
+joblib
+matplotlib
+pycaret

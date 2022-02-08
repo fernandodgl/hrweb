@@ -9,12 +9,11 @@ import matplotlib.pyplot as plt
 from pycaret.classification import load_model, predict_model
 
 #Baixando os aquivos do Data Lake
-#client = Minio(
-#        "localhost:9001",
-#        access_key="minioadmin",
-#        secret_key="minioadmin",
-#        secure=False
-#    )
+client = Minio(
+        "localhost:9001",
+        access_key="minioadmin",
+        secret_key="minioadmin",
+        secure=False)
 
 #modelo de classificacao,dataset e cluster.
 client.fget_object("curated","model.pkl","model.pkl")

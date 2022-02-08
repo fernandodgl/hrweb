@@ -19,7 +19,7 @@ client.fget_object("curated","model.pkl","model.pkl")
 client.fget_object("curated","dataset.csv","dataset.csv")
 client.fget_object("curated","cluster.joblib","cluster.joblib")
 
-var_model = "model"
+var_model = "model.plk"
 var_model_cluster = "cluster.joblib"
 var_dataset = "dataset.csv"
 

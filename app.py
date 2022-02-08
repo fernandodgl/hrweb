@@ -16,9 +16,9 @@ client = Minio(
         secure=False)
 
 #modelo de classificacao,dataset e cluster.
-client.fget_object("curated","model.pkl","model.pkl")
-client.fget_object("curated","dataset.csv","dataset.csv")
-client.fget_object("curated","cluster.joblib","cluster.joblib")
+client.fget_object("model.pkl")
+client.fget_object("dataset.csv")
+client.fget_object("cluster.joblib")
 
 var_model = "model.plk"
 var_model_cluster = "cluster.joblib"

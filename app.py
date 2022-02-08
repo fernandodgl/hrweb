@@ -3,7 +3,7 @@
 #pip install pycaret
 import pandas as pd
 import streamlit as st
-#from minio import Minio
+from minio import Minio
 import joblib
 import matplotlib.pyplot as plt
 from pycaret.classification import load_model, predict_model
@@ -17,9 +17,9 @@ from pycaret.classification import load_model, predict_model
 #    )
 
 #modelo de classificacao,dataset e cluster.
-#client.fget_object("curated","model.pkl","model.pkl")
-#client.fget_object("curated","dataset.csv","dataset.csv")
-#client.fget_object("curated","cluster.joblib","cluster.joblib")
+client.fget_object("curated","model.pkl","model.pkl")
+client.fget_object("curated","dataset.csv","dataset.csv")
+client.fget_object("curated","cluster.joblib","cluster.joblib")
 
 var_model = "model.plk"
 var_model_cluster = "cluster.joblib"
